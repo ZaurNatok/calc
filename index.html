@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    
+    <section class="main">
+        <div class="main__top">
+            <form action="#" class="conditions" name="conditions">
+                <input type="number" name="sum" class="conditions__input" placeholder="Сумма кредита" required>
+                <input type="number" name="months" class="conditions__input" placeholder="Срок в месяцах" required>
+                <input name="percent" class="conditions__input" placeholder="Процентная ставка (годовых)" required>
+                <input type="date" name="date" class="conditions__input" placeholder="Начало выплат" required>
+                <button type="submit" class="button">Рассчитать</button>
+            </form>
+        </div>
+        <div class="main__bottom">
+            <div class="result__line result__line_header">
+                <div class="element element_num">№</div>
+                <div class="element element_num">Дата платежа</div>
+                <div class="element element_num">Сумма платежа</div>
+                <div class="element element_num">Проценты</div>
+                <div class="element element_num">Погашение долга</div>
+                <div class="element element_debt">Остаток долга</div>
+            </div>
+            <div class="result">
+               
+            </div>
+
+        
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
